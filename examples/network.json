@@ -1,0 +1,57 @@
+{
+  "planId": "practice-sites",
+  "title": "Practice site connections",
+  "context": "One simultaneous installation plan for a workshop.",
+  "costUnit": "labor points",
+  "costDefinition": "Total installation effort for this undirected link",
+  "sites": [
+    {
+      "id": "a",
+      "label": "Desk A"
+    },
+    {
+      "id": "b",
+      "label": "Desk B"
+    },
+    {
+      "id": "c",
+      "label": "Desk C"
+    },
+    {
+      "id": "d",
+      "label": "Desk D"
+    }
+  ],
+  "links": [
+    {
+      "id": "ab",
+      "from": "a",
+      "to": "b",
+      "label": "A to B cable"
+    },
+    {
+      "id": "ac",
+      "from": "a",
+      "to": "c",
+      "label": "A to C cable"
+    },
+    {
+      "id": "ad",
+      "from": "a",
+      "to": "d",
+      "label": "A to D cable"
+    },
+    {
+      "id": "bc",
+      "from": "b",
+      "to": "c",
+      "label": "B to C cable"
+    },
+    {
+      "id": "cd",
+      "from": "c",
+      "to": "d",
+      "label": "C to D cable"
+    }
+  ]
+}
